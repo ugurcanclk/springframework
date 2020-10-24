@@ -1,3 +1,5 @@
+
+
 public class Mentor {
 
     FullTimeMentor fullTimeMentor; //composition yaptim
