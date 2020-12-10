@@ -1,6 +1,5 @@
-import service.FullTimeMentor;
-import service.MentorAccount;
-import service.PartTimeMentor;
+import services.MentorAccount;
+import services.PartTimeMentor;
 
 public class App {
 

@@ -9,10 +9,14 @@ public class App {
         //BeanFactory container= new ClassPathXmlApplicationContext("config.xml");
 
         ApplicationContext container= new ClassPathXmlApplicationContext("config.xml");
+        //container urettim => bu gidip config dosyayi okuyor
 
         //Mentor mentor= (Mentor)container.getBean("partTimeMentor");
 
         Mentor mentor= container.getBean("fullTimeMentor",Mentor.class);
+        //obje urettim yani container daki bean i getirttim.
+
+
         mentor.createAccount();
 
 

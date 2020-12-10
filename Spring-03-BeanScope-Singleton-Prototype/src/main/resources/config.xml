@@ -4,11 +4,14 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="fullTimeMentor" class="services.FullTimeMentor"></bean>
-    <!--buradaki bean id app classinda getBean method una yazdigimiz sey
-    -->
+    <bean id="java" class="services.Java" scope="prototype">
 
-    <bean id="partTimeMentor" class="services.PartTimeMentor" ></bean>
+    </bean>
+
+
+    <bean id="selenium" class="services.Selenium" ></bean>
+
+
 
 
 
